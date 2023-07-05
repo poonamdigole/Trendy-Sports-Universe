@@ -1,0 +1,48 @@
+.navbar{
+    background-color: #e6ffe6;
+    padding: 10px;
+    margin:0px;
+     }
+   .a{
+    background-color: #ff9999;
+    color: black;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px 5px 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+      }
+      .a:hover{
+        background-color: #cce0ff;
+        color: black;
+        transition: 2sec;
+        border-radius: 5px;
+      }
+   body{
+    margin: 0px;
+    
+   }
+   .container{
+    display: flex;
+    margin: 0px;
+    background-color: #cce0ff;
+    height: 580px;;
+   }
+   .card{
+    background-color: #f5f5f0;
+    height: 400px;
+    width: 200px;
+    
+    border: 1px solid #003366;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 3px 3px 3px 3px  #b3ffb3;
+}
+   .img{
+       margin: 10px;
+       display: block;
+   }
+   
