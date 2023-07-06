@@ -1,11 +1,11 @@
-.hockey-card-container {
+.cricket-card-container {
     display: flex;
     margin: 10px;
     padding: 10px;
     border-radius: 25px;
 }
 
-.hockey-card {
+.cricket-card {
     width: 350px;
     margin: 27px;
     padding: 10px;
@@ -16,35 +16,37 @@
     transition: 0.3s;
 }
 
-.hockey-card:hover {
+.cricket-card:hover {
     transform: scale(1.1);
     z-index: 2;
 }
 
 .button1{
-    flex-basis: 50%;
+            flex-basis: 50%;
 }
+
 
 .button2{
     flex-basis: 50%;
 }
 
-.hockey-card-img-div {
+.cricket-card-img-div {
     text-align:center;
 }
 
-.hockey-card-img {
+.cricket-card-img {
     width: 270px;
     height: 220px;
 
 }
 
-.hockey-card-btn {
+
+.cricket-card-btn {
     display: flex; 
     width: 100%;
 }
 
-.hockey-card-btn button {
+.cricket-card-btn button {
     border: none;
     border-radius: 5px;
     background-color: rgb(56, 214, 143);
@@ -58,7 +60,7 @@
 
 }
 
-.hockey-card-btn button:hover {
+.cricket-card-btn button:hover {
     background-color: rgb(66, 35, 35);
     color: white;
 }
@@ -104,7 +106,6 @@
     ;
     font-weight: bolder;
 }
-
 .btn-container {
     width: 300px;
     display: flex;
