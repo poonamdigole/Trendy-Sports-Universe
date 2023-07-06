@@ -1,3 +1,26 @@
+.navbar{
+    background-color:#1a1aff;
+    padding: 10px;
+     }
+   .a{
+    background-color: #ff6666;
+    color: black;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px 5px 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+      }
+      .a:hover{
+        background-color: aliceblue;
+        color: #0000ff;
+        transition: 2sec;
+        border-radius: 5px;
+      }
+   body{
+    margin:0px;}
+
 .cricket-card-container {
     display: flex;
     margin: 10px;
