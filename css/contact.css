@@ -9,33 +9,34 @@
 body{
     background-image: url("back2.jpg");
     width: 100%;
-    height:1300px;
-    background-size: 100% 155vh;
+    background-size: 100% 160vh;
     position: relative;
     background-repeat: no-repeat;
 }
 .navbar{
-    background-color:#020235;
-    padding: 10px;  
-   }
+    background-color: #e6ffe6;
+    padding: 10px;
+    margin:0px;
+     }
    .a{
-    background-color: #e96868;
+    background-color: #ff9999;
     color: black;
     padding: 5px;
-    border-radius: 6px;
+    border-radius: 8px;
     text-decoration: none;
-   margin-left: 25px;
+    margin: 5px 5px 5px 5px;
     padding-left: 10px;
     padding-right: 10px;
       }
       .a:hover{
-        background-color: aliceblue;
-        color: #0000ff;
+        background-color: #cce0ff;
+        color: black;
         transition: 2sec;
         border-radius: 5px;
       }
    body{
-    margin: 0px;   
+    margin: 0px;
+    
    }
 header{
     position: absolute;
@@ -197,14 +198,13 @@ section i{
 }
 .containerbottom {
     background-color: rgb(1, 1, 60);
-    height: 430px;
+    height: 450px;
    padding-left: 150px;
    padding-top: 60px;
-   margin-top: 20px;
 }
 .map {
     position: absolute;
         top: 100vh;
       margin-left: 320px;
-        margin-top: 220px;   
+        margin-top: 200px;   
 }
