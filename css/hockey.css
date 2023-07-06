@@ -1,9 +1,10 @@
 .navbar{
-    background-color:#1a1aff;
+    background-color: #e6ffe6;
     padding: 10px;
+    margin:0px;
      }
    .a{
-    background-color: #ff6666;
+    background-color: #ff9999;
     color: black;
     padding: 5px;
     border-radius: 8px;
@@ -13,13 +14,11 @@
     padding-right: 10px;
       }
       .a:hover{
-        background-color: aliceblue;
-        color: #0000ff;
+        background-color: #cce0ff;
+        color: black;
         transition: 2sec;
         border-radius: 5px;
       }
-   body{
-    margin:0px;}
 
 .hockey-card-container {
     display: flex;
