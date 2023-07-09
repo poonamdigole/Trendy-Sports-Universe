@@ -1,6 +1,6 @@
 .badminton-card-container {
     display: flex;
-    flex-direction: coloum;
+    flex-direction: row;
     margin: 10px;
     padding: 10px;
     border-radius: 25px;
