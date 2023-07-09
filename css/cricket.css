@@ -25,7 +25,8 @@
    }
 
 .cricket-card-container {
-    display: inline-block;
+    display:flex;
+    display:inline-block;
     margin: 10px;
     padding: 10px;
     border-radius: 25px;
