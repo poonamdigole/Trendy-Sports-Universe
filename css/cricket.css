@@ -28,7 +28,7 @@ body {
     color: white;
   }
 .cricket-card-container {
-    display: inline-block;
+    display:inline-block;
     margin: 10px;
     padding: 10px;
     border-radius: 25px;
@@ -72,8 +72,10 @@ body {
 
 
 .cricket-card-btn {
-    display: flex; 
+    display: flex;
     width: 100%;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
 }
 
 .cricket-card-btn button {
@@ -83,10 +85,11 @@ body {
     width: 95%;
     color: white;
     font-weight: 900;
-    cursor: pointer;
-    margin-bottom: 5px;
-    font-size: 15px;
     height: 35px;
+    cursor: pointer;
+    margin: 20px 20px 20px 20px;
+    padding-right: 10px;
+    font-size: 15px;
 
 }
 
