@@ -1,11 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color:   #cce0ff;
+    
+  }
+  
+  .navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #b8b894;
+    color: white;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
 .cricket-card-container {
-    display: flex;
+    display:inline-block;
     margin: 10px;
     padding: 10px;
     border-radius: 25px;
 }
 
 .cricket-card {
+    display: inline-block;
     width: 350px;
     margin: 27px;
     padding: 10px;
@@ -22,7 +52,7 @@
 }
 
 .button1{
-            flex-basis: 50%;
+     flex-basis: 50%;
 }
 
 
@@ -36,14 +66,16 @@
 
 .cricket-card-img {
     width: 270px;
-    height: 220px;
+    height: 280px;
 
 }
 
 
 .cricket-card-btn {
-    display: flex; 
+    display: flex;
     width: 100%;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
 }
 
 .cricket-card-btn button {
@@ -53,10 +85,11 @@
     width: 95%;
     color: white;
     font-weight: 900;
-    cursor: pointer;
-    margin-bottom: 5px;
-    font-size: 15px;
     height: 35px;
+    cursor: pointer;
+    margin: 20px 20px 20px 20px;
+    padding-right: 10px;
+    font-size: 15px;
 
 }
 
@@ -103,7 +136,6 @@
     margin: 2px;
     margin-top: 5px;
     color: #cc9966;
-    ;
     font-weight: bolder;
 }
 .btn-container {

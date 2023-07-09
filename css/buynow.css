@@ -1,0 +1,105 @@
+.heading
+    {
+        color:white;
+        text-align: center;
+    }
+ body
+    {
+        background-color: rgb(165, 121, 121);
+    }
+.main-container
+    {   height: 340px;
+        width: 450px;
+        margin-left:auto;
+        margin-right: auto;
+        padding: 30px;
+        background-color: rgb(185, 235, 235);
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 1px;
+
+    }
+.input-btn
+    {
+       height: 30px;
+       width: 300px;
+       margin-left: 5px;
+       border-radius: 5px;
+       border: 1px solid black;
+       padding: 5px;
+       
+    }
+    .states-bar
+    {
+        height: 22px;
+        width: 150px;
+        border-radius: 5px;
+        margin-right: 22px;
+    }
+    .country-bar
+    {
+        height: 22px;
+        width: 150px;
+        border-radius: 5px;
+        margin-right: 22px;
+        border: 1px solid black;
+        
+    }
+    
+    .payment
+    { 
+        text-align: center;
+        color: black;
+        margin: auto;
+        margin-top: 10px;
+        display: block;
+       
+        
+    }
+    .payment-btn
+    {
+        height: 25px;
+        width: 80px;
+        margin-top: 18px;
+        padding: 5px;
+        border-radius: 3px 12px;
+        margin-left:30px;
+        background-color:#d6d6c2;
+        cursor: pointer;
+    }
+    .payment-btn:hover
+    {
+        background-color: #9c9c75;
+        transition: 0.5s;
+        height: 28px;
+        width: 99px;
+        padding: 5px;
+    }
+    
+    .submit-btn
+    {   
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 35px;
+        width: 90px;
+        pad: 3px;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+
+    }
+    .submit-btn:hover
+    {
+        background-color:red;
+    }
+    .address{
+        height: 30px;
+       width: 300px;
+       padding-top: 5px;
+      
+    }
+
+
+    
+    
