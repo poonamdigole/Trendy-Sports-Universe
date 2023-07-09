@@ -1,131 +1,108 @@
-.navbar{
-    background-color: #ffccee;
-    background-color: #e6ffe6;
-    padding: 10px;
-    margin:0px;
-    margin:0px;
-     }
-   .a{
-    background-color: #ff9999;
-    color: black;
-    padding: 5px;
-    border-radius: 8px;
-    text-decoration: none;
-    margin: 5px 5px 5px 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-      }
-      .a:hover{
-        background-color: #cce0ff;
-        color: black;
-        transition: 2sec;
-        border-radius: 5px;
-      }
-     
+
 .container
-{    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 420px;
-    width: 300px;
-    background-color:white;
-    margin-left:55px;
-    margin-right: -100px;
-    margin-top: 70px;
-    border-radius: 13px;
-    border: 0.4px solid #527a7a ;
-    box-shadow: 0 0 4px 4px #527a7a;
-    display:inline-block;
-    margin-left: 20px;
-    margin-right: 50px;
-   
-}
-.container:hover
-{
-   
-    transition:scale (0.5) ;
-    transform: scale(1.1);
-
-}
-.img-equipment
-{
-    display: block;
-    height: 150px;
-    width: 190px;
-    border-radius:;
-    margin: auto;
-    border:2px solid white;
-    padding: 5px;
-}
-.off-btn
-{
-    margin-left: 20px;
-    margin-top: 20px;
-    height: 30px;
-    width: 120px;
-    border-radius: 5px;
-    padding: 3px;
-    color:white;
-    background-color:#cc0c39;
-    cursor: pointer;
-    font-family: Impact, 
-    Haettenschweiler,
-     'Arial Narrow Bold',
-      sans-serif;
-      border: 1px solid white;
-}
-.deal-btn
-{    display: inline-block;
-    height:30px;
-    width: 150;
-    margin-left: 16px;
-    font-size:19px;
-    border: none;
-    background-color: white;
-    color:#cc0c39;
-    font-family: Impact, 
-    Haettenschweiler, 
-    'Arial Narrow Bold',
-     sans-serif;
-
-
-}
-.name
-{
-    margin-left: 10px;
-     margin-right: 10px;
+    {    display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 420px;
+        width: 300px;
+        background-color:white;
+        margin-left:55px;
+        margin-right: -100px;
+        margin-top: 70px;
+        border-radius: 13px;
+        border: 0.4px solid #527a7a ;
+        box-shadow: 0 0 4px 4px #527a7a;
+        display:inline-block;
+        margin-left: 20px;
+        margin-right: 50px;
+       
+    }
+    .container:hover
+    {
+       
+        transition:scale (0.5) ;
+        transform: scale(1.1);
     
+    }
+    .img-equipment
+    {
+        display: block;
+        height: 150px;
+        width: 190px;
+        border-radius:;
+        margin: auto;
+        border:2px solid white;
+        padding: 5px;
+    }
+    .off-btn
+    {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 30px;
+        width: 120px;
+        border-radius: 5px;
+        padding: 3px;
+        color:white;
+        background-color:#cc0c39;
+        cursor: pointer;
+        font-family: Impact, 
+        Haettenschweiler,
+         'Arial Narrow Bold',
+          sans-serif;
+          border: 1px solid white;
+    }
+    .deal-btn
+    {    display: inline-block;
+        height:30px;
+        width: 150;
+        margin-left: 16px;
+        font-size:19px;
+        border: none;
+        background-color: white;
+        color:#cc0c39;
+        font-family: Impact, 
+        Haettenschweiler, 
+        'Arial Narrow Bold',
+         sans-serif;
 
-}
-.wrong-price
-{    display:inline-block;
-    margin-right: 8px;
-    color:rgb(16, 58, 58);
-    font-size:19px;
 
-}
-.right-price
-{
-   display: inline-block;
-   font-size: 19px;
+    }
+    .name
+    {
+        margin-left: 10px;
+         margin-right: 10px;
+        
 
-}
-.add-cart-buy-now
-{    height: 28px;
-    width: 120px;
-    margin-left: 20px;
-    border-radius: 5px;
-    border: none;
-    font-family:arial black;
-    background-color: rgb(56, 214, 143);
-    font-size: 15px;
-    padding: 3px;
-    cursor: pointer;
+    }
+    .wrong-price
+    {    display:inline-block;
+        margin-right: 5px;
+        color:rgb(16, 58, 58);
+        font-size:19px;
 
-}
+    }
+    .right-price
+    {
+       display: inline-block;
+       font-size: 19px;
 
-.add-cart-buy-now:hover
-{
-    background-color: rgb(66, 35, 35);
-    color: white;
-}
+    }
+    .add-cart-buy-now
+    {    height: 29px;
+        width: 120px;
+        margin-left: 15px;
+        border-radius: 5px;
+        border: none;
+        font-family:arial black;
+        background-color: rgb(56, 214, 143);
+        font-size: 15px;
+        padding: 3px;
+        cursor: pointer;
+
+    }
+    .add-cart-buy-now:hover
+    {
+        background-color: rgb(66, 35, 35);
+        color: white;
+    }
+    

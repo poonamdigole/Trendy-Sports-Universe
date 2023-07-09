@@ -86,11 +86,18 @@
         pad: 3px;
         border-radius: 8px;
         cursor: pointer;
+        text-decoration: none;
 
     }
     .submit-btn:hover
     {
         background-color:red;
+    }
+    .address{
+        height: 30px;
+       width: 300px;
+       padding-top: 5px;
+      
     }
 
 
