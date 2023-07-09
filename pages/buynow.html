@@ -41,11 +41,13 @@
                         <option>Germany</option>
                     </datalist>
                 </div>
-
+                <br/>
                 <div>
                     <label for="select paying method">Paying Method</label>
-                    <button class="payment-btn cash" >Cash</button>
-                    <button class="payment-btn online" >Online</button>
+                    <input type="radio" id="Cash" name="payment_method" value="Cash">
+                          <label for="Cash">Cash</label>
+                    <input type="radio" id="Online" name="payment_method" value="Online">
+                           <label for="Online">Online</label>
                 </div><hr>
                 <input type="submit" class="submit-btn"/>
 
