@@ -1,0 +1,137 @@
+.navbar{
+    background-color: #ffccee;
+    padding: 10px;
+    margin:0px;
+     }
+   .a{
+    background-color: #ff9999;
+    color: black;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px 5px 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+      }
+      .a:hover{
+        background-color: #cce0ff;
+        color: black;
+        transition: 2sec;
+        border-radius: 5px;
+      }
+   body{
+    margin: 0px;
+    
+   }
+.tennis-card-container {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.tennis-card {
+    width: 350px;
+    margin: 27px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px grey;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tennis-card:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.button1{
+    flex-basis: 50%;
+}
+
+.button2{
+    flex-basis: 50%;
+}
+.anchor-tag
+{
+   text-decoration: none;
+   color: black;
+}
+
+.tennis-card-img-div {
+    text-align:center;
+}
+
+.tennis-card-img {
+    width: 270px;
+    height: 220px;
+
+}
+
+.tennis-card-btn {
+    display: flex; 
+    width: 100%;
+}
+
+.tennis-card-btn button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(56, 214, 143);
+    width: 95%;
+    color:black;
+    font-weight: 900;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-size: 15px;
+    height: 35px;
+
+}
+
+.tennis-card-btn button:hover {
+    background-color: rgb(66, 35, 35);
+    color: white;
+}
+
+.deal {
+    background-color: #cc0c39;
+    width: 110px;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+.deal-day {
+    color: #cc0c39;
+    font-weight: bold;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.offer-deal {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.card-content {
+    margin: 5px;
+    padding: 2px;
+    margin-left: 9px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-content p {
+    margin: 2px;
+    margin-top: 5px;
+    color: #cc9966;
+    ;
+    font-weight: bolder;
+}
+
