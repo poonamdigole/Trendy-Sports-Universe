@@ -18,7 +18,7 @@
                 <br><br>
 
                 <label for="address" class="label">Your Address</label>
-                <input type="text" placeholder="Enter Full Address" name="address"  required class="input-btn">
+                <input type="address" placeholder="Enter Address" name="address" required class="input-btn">
                 <br><br>
 
                 <div>
@@ -32,7 +32,7 @@
                         <option>Punjab</option>
                     </select>
                     <label for="select state">Country :</label>
-                   <input list="COUNTRY" value="India" class="country-bar"/>
+                   <input list="COUNTRY" value=" " class="country-bar"/>
                     <datalist id="COUNTRY">
                         <option>India</option>
                         <option>United States</option>
@@ -49,8 +49,7 @@
                     <input type="radio" id="Online" name="payment_method" value="Online">
                            <label for="Online">Online</label>
                 </div><hr>
-                <input type="submit" class="submit-btn"/>
-
+                <input type="button" onclick="alert('Your request submitted successfully')" value="Submit" class="submit-btn">
 
               </form>
         </div>

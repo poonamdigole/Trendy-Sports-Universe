@@ -1,30 +1,32 @@
-.navbar{
-    background-color: #ffccee;
-    background-color: #e6ffe6;
-    padding: 10px;
-    margin:0px;
-    margin:0px;
-     }
-   .a{
-    background-color: #ff9999;
-    color: black;
-    padding: 5px;
-    border-radius: 8px;
-    text-decoration: none;
-    margin: 5px 5px 5px 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-      }
-      .a:hover{
-        background-color: #cce0ff;
-        color: black;
-        transition: 2sec;
-        border-radius: 5px;
-      }
-   body{
-    margin: 0px;
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color:   #cce0ff;
     
-   }
+  }
+  
+  .navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #b8b894;
+    color: white;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
 .hockey-card-container {
     display: flex;
     margin: 10px;
