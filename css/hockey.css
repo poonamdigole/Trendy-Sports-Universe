@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar{
     background-color: #ffccee;
     background-color: #e6ffe6;
@@ -24,6 +25,37 @@
    body{
     margin:0px;}
 
+=======
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color:   #cce0ff;
+    
+  }
+  
+  .navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #b8b894;
+    color: white;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+>>>>>>> d660e2d2a0121e3699a71fdbaeb7c7716a703b21
 .hockey-card-container {
     display: flex;
     margin: 10px;
