@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #e6ffe6;
+    background-color: #ffccee;
     padding: 10px;
     margin:0px;
      }
@@ -55,7 +55,7 @@
         }
     .card:hover{
       background-color:  #ffffcc;
-      box-shadow: 3px 3px 3px 3px #ffb3d1;
+      box-shadow: 3px 3px 3px 3px  #d9b3ff;
     }
    .row{
     display: flex;
