@@ -1,11 +1,38 @@
+.navbar{
+    background-color: #ffccee;
+    padding: 10px;
+    margin:0px;
+     }
+   .a{
+    background-color: #ff9999;
+    color: black;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px 5px 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+      }
+      .a:hover{
+        background-color: #cce0ff;
+        color: black;
+        transition: 2sec;
+        border-radius: 5px;
+      }
+   body{
+    margin: 0px;
+    
+   }
+
 .cricket-card-container {
-    display: flex;
+    display: inline-block;
     margin: 10px;
     padding: 10px;
     border-radius: 25px;
 }
 
 .cricket-card {
+    display: inline-block;
     width: 350px;
     margin: 27px;
     padding: 10px;
@@ -22,7 +49,7 @@
 }
 
 .button1{
-            flex-basis: 50%;
+     flex-basis: 50%;
 }
 
 
@@ -36,7 +63,7 @@
 
 .cricket-card-img {
     width: 270px;
-    height: 220px;
+    height: 280px;
 
 }
 
@@ -103,7 +130,6 @@
     margin: 2px;
     margin-top: 5px;
     color: #cc9966;
-    ;
     font-weight: bolder;
 }
 .btn-container {

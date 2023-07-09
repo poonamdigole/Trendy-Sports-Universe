@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy Now</title>
+    <link rel="stylesheet" href="./../css/buynow.css">
+</head>
+<body>
+        <h1 class="heading">Buy Now</h1>
+        <div class="main-container">
+
+            <form>
+                <label for="name" class="label">Your Name</label>
+                <input type="text" placeholder="Enter Name" name="name" required class="input-btn">
+                <br><br>
+
+                <label for="pswrd" class="label" >Your Email</label>
+                <input type="email" placeholder="Enter Email" name="email" required class="input-btn">
+                <br><br>
+
+                <label for="address" class="label">Your Address</label>
+                <input type="text" placeholder="Enter Full Address" name="address"  required class="input-btn">
+                <br><br>
+
+                <div>
+                    <label for="select state">States</label><br />
+                    <select class="states-bar">
+                        <option>STATES</option>
+                        <option>Maharashtra</option>
+                        <option>Kerala</option>
+                        <option>Uttar Pradesh</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Punjab</option>
+                    </select>
+                    <label for="select state">Country :</label>
+                   <input list="COUNTRY" value="India" class="country-bar"/>
+                    <datalist id="COUNTRY">
+                        <option>India</option>
+                        <option>United States</option>
+                        <option>France</option>
+                        <option>canada</option>
+                        <option>Germany</option>
+                    </datalist>
+                </div>
+
+                <div>
+                    <label for="select paying method">Paying Method</label>
+                    <button class="payment-btn cash" >Cash</button>
+                    <button class="payment-btn online" >Online</button>
+                </div><hr>
+                <input type="submit" class="submit-btn"/>
+
+
+              </form>
+        </div>
+
+
+    </div>
+</body>
+</html>
