@@ -50,13 +50,7 @@ body {
     z-index: 2;
 }
 
-.button1{
-    flex-basis: 50%;
-}
 
-.button2{
-    flex-basis: 50%;
-}
 .anchor-tag
 {
    text-decoration: none;
@@ -73,10 +67,7 @@ body {
 
 }
 
-.basketball-card-btn {
-    display: flex; 
-    width: 100%;
-}
+
 
 .basketball-card-btn button {
     border: none;
@@ -90,6 +81,25 @@ body {
     font-size: 15px;
     height: 35px;
 
+}
+
+.add-cart-buy-now
+{    height: 29px;
+    width: 120px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family:arial black;
+    background-color: rgb(56, 214, 143);
+    font-size: 15px;
+    padding: 3px;
+    cursor: pointer;
+}
+.add-cart-buy-now:hover
+{
+    background-color: rgb(66, 35, 35);
+    color: white;
 }
 
 .basketball-card-btn button:hover {

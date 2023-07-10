@@ -51,13 +51,7 @@ body {
     z-index: 2;
 }
 
-.button1{
-    flex-basis: 50%;
-}
 
-.button2{
-    flex-basis: 50%;
-}
 .anchor-tag
 {
    text-decoration: none;
@@ -74,10 +68,6 @@ body {
 
 }
 
-.tennis-card-btn {
-    display: flex; 
-    width: 100%;
-}
 
 .tennis-card-btn button {
     border: none;
@@ -140,3 +130,21 @@ body {
     font-weight: bolder;
 }
 
+.add-cart-buy-now
+{    height: 29px;
+    width: 120px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family:arial black;
+    background-color: rgb(56, 214, 143);
+    font-size: 15px;
+    padding: 3px;
+    cursor: pointer;
+}
+.add-cart-buy-now:hover
+{
+    background-color: rgb(66, 35, 35);
+    color: white;
+}
