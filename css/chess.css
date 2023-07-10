@@ -1,4 +1,145 @@
 body {
+<<<<<<< HEAD
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color:   #cce0ff; 
+  }
+  
+  .navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #b8b894;
+    color: white;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.container
+    {    display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 420px;
+        width: 300px;
+        background-color:white;
+        margin-top: 30px;
+        border-radius: 13px;
+        border: 0.4px solid #527a7a ;
+        box-shadow: 0 0 4px 4px #527a7a;
+        display:inline-block;
+        margin-left: 70px;
+        margin-right: 60px;
+       
+    }
+    .container:hover
+    {
+       
+        transition:scale (0.5) ;
+        transform: scale(1.1);
+    
+    }
+    .img-equipment
+    {
+        display: block;
+        height: 150px;
+        width: 190px;
+        margin: auto;
+        border:2px solid white;
+        padding: 5px;
+    }
+    .off-btn
+    {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 30px;
+        width: 120px;
+        border-radius: 5px;
+        padding: 3px;
+        color:white;
+        background-color:#cc0c39;
+        cursor: pointer;
+        font-family: Impact, 
+        Haettenschweiler,
+         'Arial Narrow Bold',
+          sans-serif;
+          border: 1px solid white;
+    }
+    .deal-btn
+    {    display: inline-block;
+        height:30px;
+        width: 150;
+        margin-left: 16px;
+        font-size:19px;
+        border: none;
+        background-color: white;
+        color:#cc0c39;
+        font-family: Impact, 
+        Haettenschweiler, 
+        'Arial Narrow Bold',
+         sans-serif;
+
+
+    }
+    .name
+    {
+        margin-left: 10px;
+         margin-right: 10px;
+        
+
+    }
+    .wrong-price
+    {    display:inline-block;
+        margin-right: 5px;
+        color:rgb(16, 58, 58);
+        font-size:19px;
+
+    }
+    .right-price
+    {
+       display: inline-block;
+       font-size: 19px;
+
+    }
+    .add-cart-buy-now
+    {    height: 29px;
+        width: 120px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        font-family:arial black;
+        background-color: rgb(56, 214, 143);
+        font-size: 15px;
+        padding: 3px;
+        cursor: pointer;
+
+    }
+    .add-cart-buy-now:hover
+    {
+        background-color: rgb(66, 35, 35);
+        color: white;
+    }
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        }
+    .end-row{
+      padding-left:27px ;
+    }
+=======
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -161,3 +302,4 @@ body {
   box-shadow: 0 2px 5px black;
   transition: 0.4s;
 }
+>>>>>>> 490aa1a88d8364ad7db41a693432b4b7cf21d3e6
