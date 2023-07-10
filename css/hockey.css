@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+.navbar{
+    background-color: #ffccee;
+    background-color: #e6ffe6;
+    padding: 10px;
+    margin:0px;
+    margin:0px;
+     }
+   .a{
+    background-color: #ff6666;
+    color: black;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px 5px 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+      }
+      .a:hover{
+        background-color: aliceblue;
+        color: #0000ff;
+        transition: 2sec;
+        border-radius: 5px;
+      }
+   body{
+    margin:0px;}
+
+=======
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,6 +55,7 @@ body {
     background-color: #04AA6D;
     color: white;
   }
+>>>>>>> d660e2d2a0121e3699a71fdbaeb7c7716a703b21
 .hockey-card-container {
     display: flex;
     margin: 10px;
@@ -138,4 +167,3 @@ body {
     ;
     font-weight: bolder;
 }
-
