@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color:   #cce0ff; 
+  }
+  
+  .navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #b8b894;
+    color: white;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.basketball-card-container {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.basketball-card {
+    width: 350px;
+    margin: 27px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px grey;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.basketball-card:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+
+.anchor-tag
+{
+   text-decoration: none;
+   color: black;
+}
+
+.basketball-card-img-div {
+    text-align:center;
+}
+
+.basketball-card-img {
+    width: 270px;
+    height: 220px;
+
+}
+
+
+
+.basketball-card-btn button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(56, 214, 143);
+    width: 95%;
+    color:black;
+    font-weight: 900;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-size: 15px;
+    height: 35px;
+
+}
+
+.add-cart-buy-now
+{    height: 29px;
+    width: 120px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family:arial black;
+    background-color: rgb(56, 214, 143);
+    font-size: 15px;
+    padding: 3px;
+    cursor: pointer;
+}
+.add-cart-buy-now:hover
+{
+    background-color: rgb(66, 35, 35);
+    color: white;
+}
+
+.basketball-card-btn button:hover {
+    background-color: rgb(66, 35, 35);
+    color: white;
+}
+
+.deal {
+    background-color: #cc0c39;
+    width: 110px;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+.deal-day {
+    color: #cc0c39;
+    font-weight: bold;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.offer-deal {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.card-content {
+    margin: 5px;
+    padding: 2px;
+    margin-left: 9px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-content p {
+    margin: 2px;
+    margin-top: 5px;
+    color: #cc9966;
+    ;
+    font-weight: bolder;
+}
+
