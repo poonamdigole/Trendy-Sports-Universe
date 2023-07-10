@@ -26,6 +26,69 @@ body {
     background-color: #04AA6D;
     color: white;
   }
+ .container
+    {    display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 420px;
+        width: 300px;
+        background-color:white;
+        margin-top: 30px;
+        border-radius: 13px;
+        border: 0.4px solid #527a7a ;
+        box-shadow: 0 0 4px 4px #527a7a;
+        display:inline-block;
+        margin-left: 70px;
+        margin-right: 60px;
+       
+    }
+    .container:hover
+    {
+       
+        transition:scale (0.5) ;
+        transform: scale(1.1);
+    
+    }
+    .img-equipment
+    {
+        display: block;
+        height: 150px;
+        width: 190px;
+        margin: auto;
+        border:2px solid white;
+        padding: 5px;
+    }
+    .off-btn
+    {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 30px;
+        width: 120px;
+        border-radius: 5px;
+        padding: 3px;
+        color:white;
+        background-color:#cc0c39;
+        cursor: pointer;
+        font-family: Impact, 
+        Haettenschweiler,
+         'Arial Narrow Bold',
+          sans-serif;
+          border: 1px solid white;
+    }
+    .deal-btn
+    {    display: inline-block;
+        height:30px;
+        width: 150;
+        margin-left: 16px;
+        font-size:19px;
+        border: none;
+        background-color: white;
+        color:#cc0c39;
+        font-family: Impact, 
+        Haettenschweiler, 
+        'Arial Narrow Bold',
+         sans-serif;
+
 .badminton-card-container {
     display: flex;
     flex-direction: row;
@@ -33,6 +96,7 @@ body {
     padding: 10px;
     border-radius: 25px;
 }
+>>>>>>> ce938a67f6b02ec3ffc7119a557e455b4affff8c
 
 
     }
