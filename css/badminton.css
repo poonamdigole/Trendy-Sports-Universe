@@ -26,8 +26,7 @@ body {
     background-color: #04AA6D;
     color: white;
   }
-<<<<<<< HEAD
-.container
+ .container
     {    display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -89,7 +88,7 @@ body {
         Haettenschweiler, 
         'Arial Narrow Bold',
          sans-serif;
-=======
+
 .badminton-card-container {
     display: flex;
     flex-direction: row;
@@ -97,7 +96,7 @@ body {
     padding: 10px;
     border-radius: 25px;
 }
->>>>>>> ce938a67f6b02ec3ffc7119a557e455b4affff8c
+
 
 
     }
