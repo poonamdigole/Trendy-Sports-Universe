@@ -1,167 +1,140 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:   #cce0ff; 
+}
+
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #b8b894;
+  color: white;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.container
+  {    display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      height: 420px;
+      width: 300px;
+      background-color:white;
+      margin-top: 30px;
+      border-radius: 13px;
+      border: 0.4px solid #527a7a ;
+      box-shadow: 0 0 4px 4px #527a7a;
+      display:inline-block;
+      margin-left: 70px;
+      margin-right: 60px;
+      text-decoration: none;
+     
   }
+  .container:hover
+  {
+     
+      transition:scale (0.5) ;
+      transform: scale(1.1);
   
-  .navbar {
-    overflow: hidden;
-    background-color:   #cce0ff;
-    
   }
-  
-  .navbar a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  .img-equipment
+  {
+      display: block;
+      height: 150px;
+      width: 190px;
+      margin: auto;
+      border:2px solid white;
+      padding: 5px;
   }
-  
-  .navbar a:hover {
-    background-color: #b8b894;
-    color: white;
+  .off-btn
+  {
+      margin-left: 20px;
+      margin-top: 20px;
+      height: 30px;
+      width: 120px;
+      border-radius: 5px;
+      padding: 5px;
+      color:white;
+      background-color:#cc0c39;
+      cursor: pointer;
+      font-family: Impact, 
+      Haettenschweiler,
+       'Arial Narrow Bold',
+        sans-serif;
+       border: 1px solid white;
   }
-  
-  .navbar a.active {
-    background-color: #04AA6D;
-    color: white;
+  .deal-btn
+  {    display: inline-block;
+      height:30px;
+      width: 150;
+      margin-left: 16px;
+      font-size:19px;
+      border: none;
+      background-color: white;
+      color:#cc0c39;
+      font-family: Impact, 
+      Haettenschweiler, 
+      'Arial Narrow Bold',
+       sans-serif;
+
+
   }
-.cricket-card-container {
-    display:inline-block;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 25px;
-}
-
-.cricket-card {
-    display: inline-block;
-    width: 350px;
-    margin: 27px;
-    padding: 10px;
-    background-color:white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 1px grey;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.cricket-card:hover {
-    transform: scale(1.1);
-    z-index: 2;
-}
-
-.button1{
-     flex-basis: 50%;
-}
-
-
-.button2{
-    flex-basis: 50%;
-}
-
-.cricket-card-img-div {
-    text-align:center;
-}
-
-.cricket-card-img {
-    width: 270px;
-    height: 280px;
-
-}
-
-
-.cricket-card-btn {
-    display: flex;
-    width: 100%;
-    padding: 5px 5px 5px 5px;
-    margin: 10px 10px 10px 10px;
-}
-
-.cricket-card-btn button {
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(56, 214, 143);
-    width: 95%;
-    color: white;
-    font-weight: 900;
-    height: 35px;
-    cursor: pointer;
-    margin: 20px 20px 20px 20px;
-    padding-right: 10px;
-    font-size: 15px;
-
-}
-
-.cricket-card-btn button:hover {
-    background-color: rgb(66, 35, 35);
-    color: white;
-}
-
-.deal {
-    background-color: #cc0c39;
-    width: 110px;
-    margin: 10px;
-    padding: 8px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    border-radius: 5px;
-}
-
-.deal-day {
-    color: #cc0c39;
-    font-weight: bold;
-    margin: 5px;
-    margin-top: 15px;
-    font-size: 18px;
-}
-
-.offer-deal {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 5px;
-}
-
-.card-content {
-    margin: 5px;
-    padding: 2px;
+  .name
+  {
     margin-left: 9px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-weight: bold;
     font-size: 18px;
-}
+      margin-left: 10px;
+       margin-right: 10px;
+       text-decoration: none;
 
-.card-content p {
-    margin: 2px;
-    margin-top: 5px;
-    color: #cc9966;
-    font-weight: bolder;
-}
-.btn-container {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 200px;
-    margin-top: 10px;
-}
+  }
+  .wrong-price
+  {    display:inline-block;
+      margin-right: 5px;
+      color:rgb(16, 58, 58);
+      font-size:19px; 
+  }
+  .right-price
+  {
+     display: inline-block;
+     font-size: 19px;
 
-.btn {
-    margin: 20px auto;
-    border: none;
-    font-size: 20px;
-    padding: 10px;
-    position: relative;
-    border-radius: 13px;
-    background-color: rgb(56, 214, 143);
-    cursor: pointer;
-    font-weight: 700;
-    width: 140px;
-    color: white;
-    margin-top: 15px;
-}
-
-.btn:hover {
-    box-shadow: 0 2px 5px black;
-    transition: 0.4s;
-}
+  }
+  .add-cart-buy-now
+  {    height: 29px;
+      width: 120px;
+      margin-left: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: none;
+      font-family:arial black;
+      background-color: rgb(56, 214, 143);
+      font-size: 15px;
+      padding: 3px;
+      cursor: pointer;
+  }
+  .add-cart-buy-now:hover
+  {
+      background-color: rgb(66, 35, 35);
+      color: white;
+  }
+  .row{
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 20px;
+  }
